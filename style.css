@@ -1,0 +1,526 @@
+* {
+  	box-sizing: border-box;
+	margin:0;
+	font-family: arial;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+.row{
+	//text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+.bg{
+	background:  linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/bg.jpg);
+	background-size: cover;
+	background-position: center;'	
+}
+.inner{
+	padding-top: 15%;
+	padding-bottom: 15%;
+	text-align: center;
+}
+.inner h1{
+	font-size: 4em;
+	color: white;
+	text-align: center;
+}
+button.study{
+	border: none;
+	outline: none;
+	padding: 15px 70px;
+	font-size: 18px;
+	color: white;
+	background: #219e43;
+	border-top-left-radius: 40px;
+    	border-bottom-right-radius: 40px;
+	cursor: pointer;
+}
+.nav {
+  	overflow: hidden;
+  	background-color: #14a800;
+	//padding: 10px;
+}
+
+.nav a {
+  	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 18px 20px;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+
+
+.nav .icon {
+  	display: none;
+}
+
+.dropdown {
+  	float: left;
+  	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  	font-size: 17px;    
+  	border: none;
+  	outline: none;
+  	color: white;
+  	padding: 18px 20px;
+  	background-color: inherit;
+  	font-family: inherit;
+  	margin: 0;
+	cursor: pointer;
+}
+
+.dropdown-content {
+  	display: none;
+  	position: absolute;
+  	background-color: #04AA6D;
+  	min-width: 160px;
+  	z-index: 1;
+	//margin-top: 10px;
+}
+
+.dropdown-content a {
+  	float: none;
+  	color: white;
+  	padding: 20px 16px;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
+}
+p.home-text{
+	color: white;
+}
+
+
+
+.dropdown-content a:hover {
+  	background-color: #ddd;
+  	color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  	display: block;
+}
+
+h1 {
+    	text-align: center;
+}
+p.learner{
+	color: #219e43;
+}
+.welcome{	
+	text-align: center;
+}
+.ser:hover{
+	transition: .8s;
+	cursor: pointer;
+	background:  #14a800;
+
+}
+.ser:hover p{
+	color: white;
+}
+.column{
+	padding: 0px 10px;
+}
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	padding: 16px;
+  	text-align: center;
+  	background-color: #f1f1f1;
+}
+button{
+	border: none;
+	outline: none;
+	background :  #14a800;
+	padding: 10px 30px;
+	color: white;
+	font-size: 17px;
+	cursor: pointer;
+}
+.down{
+	margin-top: 10%;
+}
+p.play{
+	font-size: 20px;
+	text-align: justify;
+}
+.footer{
+	background:  linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url(images/footer.jpg);
+	height: 80vh;
+	background-size: cover;
+	color: white;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+.footer a{
+	color: white;
+	text-decoration: none;
+	padding: 9px;
+}
+
+.footer img{
+	margin-left:0%;
+}
+p.note{
+	font-size: 19px;
+	text-align: center;
+	padding: 10px;
+}
+.location .fa{
+	font-size: 30px;
+	text-align: center;
+	background: #14a800;
+	padding: 10px;
+	width: 12%;
+}
+.location{
+	margin-top: 10%;
+}
+.about{
+	margin-top: 10%;
+}
+.row.first{
+	text-align: center;
+}
+p.teach{
+	text-align: center;
+}
+.row.design{
+	text-align: center;
+}
+.lang{
+	border-left: 2px solid  #219e43;
+}
+.design p{
+	text-align: justify;
+	font-size: 18px;
+}
+p.html{
+	color: #fc490b;
+}
+p.css{
+	color: #f33052;
+}
+p.javascript{
+	color: #e4ba42;
+}
+.join{
+	text-align: center;
+}
+.work img:hover{
+	opacity: 0.7;
+}
+img.cmt{
+	cursor: pointer;
+}
+textarea{
+	border: 1px solid #ccc;
+	resize: none;
+	padding: 10px;
+	outline: none;
+}
+textarea:focus{
+	border: 1px solid #14a800;
+}
+#cmt{
+	display: none;
+
+}
+img.share{
+	cursor: pointer;
+}
+#share{
+	position: absolute;
+	right: 39%;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 10px 30px;
+	display: none;
+}
+#share .fa{
+	display: block;
+	cursor: pointer;
+	font-size: 19px;
+}
+#share .fa:hover{
+	background: black;
+	color: white;
+}
+p.app-text{
+	text-align: center;
+}
+.photo-container img{
+	border-radius: 20px;
+}
+.photo-container img:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+.teachers img{
+	border-radius: 20px;
+	width: 80%;
+}
+.container{
+	width: 100vh;
+	height: 3vh;
+	background: #ccc;
+}
+p.percent{
+	color: white;
+	text-align: center;
+}
+.ht{
+	background-color: #04AA6D;
+	width: 96%;
+}
+.cs{
+	width: 88%;
+	border-color: #2196F3;
+	background-color: #2196F3;
+}
+.js{
+	background-color: orange;
+	width: 80%;
+}
+.graphic{
+	background: #f55;
+	width: 90%;
+}
+.content-writing{
+	background: green;
+	width: 95%;
+}
+.PHP{
+	width: 70%;
+	background:  #219e43;
+}
+h2.skill{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.contact-teacher{
+	text-align: center;
+}
+.contact-teacher input{
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 10px;
+	width: 45%;
+}
+.contact-teacher input:focus{
+	border: 1px solid   #219e43;
+}
+
+.bg-container{
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	display: flex;
+
+}
+.contact-form{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	position: relative;
+	text-align: center;
+}
+.contact-form input, .contact-form textarea{
+	border: 1px solid #000;
+	outline: none;
+	background: transparent;
+	width: 70%;
+	padding: 10px;
+	max-width: 670px;
+	margin: 10px;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+.contact-form ::placeholder{
+		color: #fff;
+}
+input:focus{
+	border: 1px solid   #219e43;
+}
+
+.user i{
+	position: absolute;
+	left: 27%;
+	top: 24%;
+	color: white;
+}
+.email i{
+	position: absolute;
+	left: 27%;
+	top: 33%;
+	color: white;
+}
+.msg i{
+	position: absolute;
+	left: 27%;
+	top: 43%;
+	font-size: 20px;
+	color: white;
+}
+button.send{
+	background: transparent;
+	width: 49.8%;
+	border: 1px solid #fff;
+}
+.register input{
+	width: 50%;
+	padding:10px;
+	margin: 14px;
+	outline: none;
+	border: 2px solid #ccc;
+}
+.register {
+	text-align: center;
+}
+.register input:focus{
+	border: 2px solid  #219e43;
+}
+button.devraj{
+	width: 50%;
+}
+.course-list{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex: 100%;
+}
+.course-list ul li{
+	font-size: 20px;
+
+}
+@media screen and (max-width: 600px) {
+
+  .nav a:not(:first-child), .dropdown .dropbtn {
+    	display: none;
+  }
+  .nav a.icon {
+    	float: right;
+    	display: block;
+  }
+
+  .nav.clicked {position: relative;}
+  .nav.clicked .icon {
+    	position: absolute;
+   	right: 0;
+   	top: 0;
+  }
+  .nav.clicked a {
+    	float: none;
+    	display: block;
+    	text-align: left;
+  }
+  .nav.clicked .dropdown {float: none;}
+  .nav.clicked .dropdown-content {position: relative;}
+  .nav.clicked .dropdown .dropbtn {
+    	display: block;
+    	width: 100%;
+    	text-align: left;
+  }
+[class*="col-"] {
+  	width: 100%;
+}
+
+p.home-text{
+	text-align: justify;
+	padding: 10px;
+}
+.inner h1{
+	font-size: 3em;
+}
+.footer{
+	height: 150vh;
+}
+.app-img{
+	max-width: 100%;
+	height: auto;
+}
+#share{
+	right: 5%;
+}
+textarea{
+	border: 1px solid #ccc;
+	width: 70%;
+}
+
+.user i{
+	position: absolute;
+	left: 22%;
+	top: 13%;
+}
+.email i{
+	position: absolute;
+	left: 22%;
+	top: 26%;
+}
+.msg i{
+	left: 22%;
+	top: 38%;
+}
+.container{
+	max-width: 100%;
+}
+
+}
+
+

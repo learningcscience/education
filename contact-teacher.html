@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Online course - Contact your teachers </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="images/top-logo.jpg">
+</head>
+<body>
+
+
+<div class="nav" id="mynav">
+  	<a href="index.html">Home</a>
+
+
+
+<div class="dropdown">
+    <button class="dropbtn"> Courses
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="web.html"> Wed Design </a>
+      <a href="app.html"> App Development </a>
+      <a href="graphic.html"> Grahpic Design </a>
+      <a href="digital.html"> Digital marketing</a>
+    </div>
+  </div> 
+
+      <a href="teacher.html"> Teachers </a>
+
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
+</div>
+
+
+<div class="bg">
+	<div class="inner">
+		<h1> Teachers  - Study Online </h1><br>
+		<p class="home-text">E-learning saves us time and means we
+		     can learn on<br> the go, so it eliminates the 
+		     boundaries of the classroom. It enables<br>
+		     us to easily learn about the world and gain better skills</p><br>
+		<a href="study.html"><button class="study"> Study now </button></a>
+	</div>
+</div>
+<br><br>
+
+<h1> Contact your teacher </h1><br><br>
+
+<div class="contact-teacher">
+	<label> Message </label>
+		<textarea rows="10" cols="80" placeholder="Message..."></textarea><br><br>
+
+	<label> Username </label>
+		<input type="text" placeholder="Enter your name"><br><br><br>
+
+
+	<label>N u m ber</label>
+		<input type="email" placeholder="Enter your email"><br><br><br>
+
+
+	<label> Password </label>
+		<input type="password" placeholder="Enter your password "><br><br>
+
+	<button> Send </button>
+</div>
+
+<br><br><br>
+
+<div class="footer">
+	<div class="row">
+
+		<div class="col-4">
+			<img src="images/logo.png"><br><br><br>
+
+			<a href="index.html">Home </a>
+			<a href="contact.html">Contact Us </a>
+			<a href="About.html"> About Us  </a>
+			<a href="Join.html"> Join Us</a>
+			<a href="teacher.html">Teachers </a><br><br><br>
+
+
+		</div>
+
+
+
+		<div class="col-4 location">
+			      <i class="fa fa-location-arrow" aria-hidden="true" style="font-size: 30px">
+     			    </i> &nbsp <span class="contact-text"> New Baneshwor, Kathmandu</span><br><br>
+
+			      <i class="fa fa-phone" aria-hidden="true" style="font-size: 30px">
+     			    </i> &nbsp <span class="contact-text"> 111-22-334</span><br><br>
+
+
+			      <i class="fa fa-envelope-o" aria-hidden="true" style="font-size: 30px">
+     			    </i> &nbsp <span class="contact-text"> santhesgaming@gmail.com </span><br><br>
+		</div>
+
+
+
+
+
+		<div class="col-4 about">
+			<h3> About online course </h3><br>
+			<p> Online learning is education that takes place over the Internet. It is often referred to as “e- learning” among other terms. However, online learning is just one type of “distance learning” - the umbrella term for any learning that takes place across distance and not in a</p>
+		
+			
+		</div>
+
+
+
+</div><br><br>
+		<p class="note"> &copy; All Right Reserved online course 2021 </p>
+</div>
+
+<script>
+function myFunction() {
+  	let a = document.getElementById("mynav");
+  	if (a.className === "nav") {
+    		a.className += " clicked";
+  	}
+	 else {
+    		a.className = "nav";
+ 	 }
+}
+
+	
+function cmt(){
+	let a = document.getElementById("cmt");
+		if(a.style.display === "none"){
+			a.style.display = "block";
+		}
+		else{
+			a.style.display = "none";
+		}
+
+}
+
+function share(){
+	let a = document.getElementById("share");
+		if(a.style.display === "none"){
+			a.style.display = "block";
+		}
+		else{
+			a.style.display = "none";
+		}
+}
+</script>
+
+
+</body>
+</html>
